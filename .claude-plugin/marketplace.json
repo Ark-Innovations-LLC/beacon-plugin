@@ -1,6 +1,10 @@
 {
   "name": "beacon",
-  "owner": { "name": "Ark Innovations, LLC", "url": "https://usebcn.com" },
+  "description": "Beacon by Ark Innovations: your agents' status on your iPhone.",
+  "owner": {
+    "name": "Ark Innovations, LLC",
+    "url": "https://usebcn.com"
+  },
   "plugins": [
     {
       "name": "beacon",
