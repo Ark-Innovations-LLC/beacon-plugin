@@ -18,7 +18,8 @@ This plugin bundles:
 |---|---|
 | `post_update` | Post or update a status card on your widget board |
 | `ask_user` | Ask a question you can answer from your phone |
-| `check_replies` | Collect answers to earlier questions |
+| `check_replies` | Read answers to earlier questions (read-only) |
+| `acknowledge_replies` | Mark answers as handled once acted on |
 | `clear_card` | Remove one of the agent's own cards |
 | `get_state` | Read the current board, activities, and reply counts |
 | `notify_user` | Send a notification |

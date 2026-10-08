@@ -10,7 +10,7 @@ Beacon puts what you're doing onto the user's iPhone. The user installed it beca
 ## When to post
 
 - Post when you **start** work that will run longer than a couple of minutes, when you **finish** it, when something **changes the plan**, and when you are **blocked** or need a decision.
-- Use `ask_user` whenever the user's answer changes what you do next. A question on their home screen beats stopping and waiting for them to come back. Collect answers with `check_replies`.
+- Use `ask_user` whenever the user's answer changes what you do next. A question on their home screen beats stopping and waiting for them to come back. Collect answers with `check_replies`, then call `acknowledge_replies` with each reply's id once you've acted on it.
 - Don't narrate individual file edits, tool calls, searches, or your reasoning. Post one card per meaningful change of state. If you wouldn't say it out loud to someone walking past, it doesn't belong on their home screen.
 
 ## Choosing a surface
