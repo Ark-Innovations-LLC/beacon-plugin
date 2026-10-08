@@ -1,0 +1,8 @@
+{
+  "name": "beacon",
+  "version": "0.1.0",
+  "description": "Put your agent's status on your iPhone: home-screen widget cards, notifications, questions you answer from your phone, and Live Activities.",
+  "author": { "name": "Ark Innovations", "url": "https://usebcn.com" },
+  "homepage": "https://usebcn.com",
+  "keywords": ["notifications", "iphone", "widgets", "live-activities", "status"]
+}

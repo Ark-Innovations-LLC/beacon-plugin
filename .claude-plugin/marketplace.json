@@ -1,0 +1,11 @@
+{
+  "name": "beacon",
+  "owner": { "name": "Ark Innovations, LLC", "url": "https://usebcn.com" },
+  "plugins": [
+    {
+      "name": "beacon",
+      "source": "./plugins/beacon",
+      "description": "Put your agent's status on your iPhone: widget cards, notifications, questions you answer from your phone, and Live Activities."
+    }
+  ]
+}
